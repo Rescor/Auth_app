@@ -1,7 +1,7 @@
 #  Auth App
 
 ## 1. Create the database
-You need to create a database and execute a dump from /database/create_db.sql to it.
+You need to create a MySQL database and execute a dump from /database/create_db.sql to it.
 
 ## 2. Run the backend
 You need to write your database credentials into /server/db.js and add JWT token into process env or in /server/utils/jwt_secret.js

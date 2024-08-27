@@ -5,6 +5,7 @@ You need to create a MySQL database and execute a dump from /database/create_db.
 
 ## 2. Run the backend
 You need to write your database credentials into /server/db.js and add JWT token into process env or in /server/utils/jwt_secret.js
+
 Then in the /server directory, you need to run:
 ### `npm install`
 
@@ -24,5 +25,7 @@ Client will be run at [http://localhost:3000](http://localhost:3000)
 
 ## 4. Create the account
 Just send a POST request to http://127.0.0.1:3001/auth/register
+
 The request body must contain a valid email and password (min. 8 characters).
+
 Example of the request body: { "email": "admin@aww.xyz ", "password": "password" }

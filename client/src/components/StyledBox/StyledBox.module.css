@@ -1,0 +1,26 @@
+.styled_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 430px;
+  margin: 10% auto;
+  padding: 20px;
+  color: #332f2f;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+}
+
+@media (orientation: portrait) and (max-width: 450px) {
+  .styled_box {
+    width: 84%;
+    margin: 45% auto;
+  }
+}
+@media (orientation: portrait) and (min-width: 450px) {
+  .styled_box {
+    width: 75%;
+    margin: 200px auto;
+  }
+}

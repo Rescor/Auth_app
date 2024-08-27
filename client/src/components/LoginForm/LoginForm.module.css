@@ -1,0 +1,9 @@
+.submit_button {
+  /* I have to use !important because MUI styles (with zero margin) have a higher priority */
+  margin-top: 12px !important;
+}
+
+.error {
+  margin-top: 18px !important;
+  text-align: center;
+}
